@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kino_ulaznica.GostController">
+    <stylesheets>
+        <URL value="@gost.css" />
+    </stylesheets>
+   <children>
+      <HBox layoutX="14.0" layoutY="14.0" prefHeight="75.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Dobrodošli u Cinestar">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="15.0" top="20.0" />
+               </HBox.margin>
+            </Text>
+            <Button fx:id="button2" mnemonicParsing="false" onAction="#handleButtonAction2" text="Odjava">
+               <HBox.margin>
+                  <Insets left="340.0" top="40.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <Button fx:id="button1" layoutX="265.0" layoutY="246.0" mnemonicParsing="false" onAction="#handleButtonAction1" text="Kupi katru" />
+      <ImageView fitHeight="137.0" fitWidth="120.0" layoutX="240.0" layoutY="109.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../ulaznica.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

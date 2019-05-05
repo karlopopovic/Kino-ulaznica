@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="679.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kino_ulaznica.PocetnaController">
+    <stylesheets>
+        <URL value="@pocetna.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="button" layoutX="488.0" layoutY="310.0" mnemonicParsing="false" onAction="#handleButtonAction1" prefHeight="34.0" prefWidth="115.0" text="Prijava" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="470.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="373.6" />
+      <HBox prefHeight="68.0" prefWidth="679.0" styleClass="naslov" stylesheets="@pocetna.css" AnchorPane.bottomAnchor="440.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="WHITE" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Dobrodošli u Cinestar" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+      <Text layoutX="33.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Multipleksi CineStar godišnje prikazuju oko 150 filmskih naslova.Dvorane su opremljene vrhunskom digitalnom tehnologijom i gledaocima osiguravaju pravi užitak gledanja filma na wall-to-wall platnima, uz Dolby Digital EX i DTS zvučni sistem. Potpuna digitalizacija omogućila nam je da udovoljimo i najzahtjevnijim ljubiteljima kina. Oni željni nove dimenzije zabave mogu se upustiti u RealD 3D  avanturu, ili se prepustiti ekstremnom doživljaju filma uz  eXtreme." wrappingWidth="341.5495414733887" AnchorPane.bottomAnchor="225.74480628967285" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="304.4504585266113" AnchorPane.topAnchor="141.6302089691162" />
+   </children>
+</AnchorPane>
